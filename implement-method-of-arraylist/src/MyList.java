@@ -38,6 +38,7 @@ public class MyList<E> {
                 elements[i] = elements[i + 1];
             }
             elements[size - 1] = null;
+            size --;
             return removed;
         }
     }
